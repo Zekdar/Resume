@@ -277,7 +277,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     (function () {
-        var myLatlng = new google.maps.LatLng(48.861923, 2.347025);
+        var myLatlng = new google.maps.LatLng(48.728567, 2.274368);
 
             var styles = [
                 {
@@ -311,7 +311,7 @@ jQuery(function ($) {
             ];
 
             var mapOptions = {
-                zoom: 12,
+                zoom: 9,
                 scrollwheel: false,
                 center: myLatlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -327,7 +327,7 @@ jQuery(function ($) {
                 animation: google.maps.Animation.DROP
             });
 
-            var contentString = 'Julien Hairapian';
+            var contentString = 'Massy';
 
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
